@@ -1,10 +1,10 @@
-# BUAS Engine
+# BUAS Template Engine
 
 A template game engine designed specifically for use with BUAS (Breda's University of Applied Sciences) CMGT program projects. This engine provides a flexible foundation for various game development assignments and projects.
 
 ## Overview
 
-BUAS Engine is a custom game engine built with OpenGL as its rendering framework. It's designed to serve as a template engine, allowing for easy adaptation and utilization across different projects within the CMGT curriculum at BUAS.
+BUAS Template Engine is a custom game engine built with OpenGL as its rendering framework. It's designed to serve as a template engine, allowing for easy adaptation and utilization across different projects within the CMGT curriculum at BUAS.
 
 ## Features
 
