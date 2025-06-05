@@ -5,7 +5,7 @@
 #ifndef VEC3_H
 #define VEC3_H
 
-#include <math.h>
+#include <cmath>
 
 namespace niekm::tmpl8::math {
 
@@ -48,7 +48,7 @@ namespace niekm::tmpl8::math {
     }
 
     inline float magnitude(const Vector3& v) {
-        return sqrt(v.x * v.x + v.y * v.y + v.z * v.z);
+        return std::sqrt(v.x * v.x + v.y * v.y + v.z * v.z);
     }
 
     inline Vector3 normalize(const Vector3& v) {
