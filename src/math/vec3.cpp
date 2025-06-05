@@ -4,8 +4,6 @@
 
 #include "math/vec3.h"
 
-#include <math.h>
-
 namespace niekm::tmpl8::math {
 
     Vector3::Vector3(const float nx, const float ny, const float nz) {

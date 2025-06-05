@@ -27,6 +27,13 @@ set(GLAD_SOURCE "${PROJECT_SOURCE_DIR}/extern/glad/src/glad.c")
 add_library(glad STATIC ${GLAD_SOURCE})
 target_include_directories(glad PRIVATE ${PROJECT_SOURCE_DIR}/extern/glad/include)
 
+# Disable warnings for GLAD
+if(MSVC)
+    target_compile_options(glad PRIVATE /W0)
+else()
+    target_compile_options(glad PRIVATE -w)
+endif()
+
 # Engine library source files
 file(GLOB_RECURSE ENGINE_LIB_SOURCES
         "src/*.cpp"
